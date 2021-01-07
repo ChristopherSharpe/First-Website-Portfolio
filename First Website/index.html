@@ -1,0 +1,233 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            
+            <div class="right-side">
+                <div class="brand">
+                    <div>CHRIS SHARPE</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/Portfolio1.jpg">
+
+                    <div class="image-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/GitHub-logo.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Here are some of the projects I have worked on and uploaded to GitHub.
+                        </div>
+                    </div>
+                </div>
+            
+        
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio2.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/HTML-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        Completed HTML Projects
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio3.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/JavaScript-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        Completed JavaScript Projects
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio4.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/C++-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        Completed C++ Projects
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio5.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/python-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        Completed Python Projects
+                    </div>
+                </div>
+            </div>
+    
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio6.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/Java-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        Completed Java Projects
+                    </div>
+                </div>
+            </div>
+    
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio7.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/coming-soon-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        More coming soon!
+                    </div>
+                </div>
+            </div>
+    
+
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio8.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/coming-soon-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        More coming soon!
+                    </div>
+                </div>
+            </div>
+    
+
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio9.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/coming-soon-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        More coming soon!
+                    </div>
+                </div>
+            </div>
+    
+
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio10.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/coming-soon-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        More coming soon!
+                    </div>
+                </div>
+            </div>
+    
+
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio11.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/coming-soon-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        More coming soon!
+                    </div>
+                </div>
+            </div>
+        
+
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/Portfolio12.jpg">
+
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/coming-soon-logo.png">
+                    </div>
+
+                    <div class="subtitle">
+                        More coming soon!
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+       portfolioItem.addEventListener('mouseover', () => {
+           portfolioItem.childNodes[1].classList.add('img-darken');
+       })
+    
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+       })
+    })
+</script>
+</html>
